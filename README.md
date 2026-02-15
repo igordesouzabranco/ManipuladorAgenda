@@ -39,8 +39,7 @@ python main.py
 ```
 ManipuladorAgenda/
 ├── main.py              # Arquivo principal do projeto
-├── agenda.py            # Módulo da agenda
-├── contato.py           # Módulo de contatos
+├── manipulação_agenda.py # Módulo da agenda
 └── README.md            # Este arquivo
 ```
 
