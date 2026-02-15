@@ -1,52 +1,61 @@
-# Manipulador Agenda
+# ManipuladorAgenda 📞
 
-## Description
-Manipulador Agenda is a user-friendly application designed to help you manage your schedule effortlessly.
+Um manipulador de agenda desenvolvido em Python que permite gerenciar contatos com facilidade.
 
-## Features
-- User authentication
-- Schedule appointments
-- Reminders and notifications
-- User-friendly interface
+## 📋 Descrição
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd ManipuladorAgenda
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+ManipuladorAgenda é um projeto que oferece uma solução completa para gerenciar sua agenda de contatos. Com ele você consegue criar, editar e excluir contatos, armazenar informações como telefone, email e endereço, além de exportar e importar dados em diferentes formatos.
 
-## Project Structure
+## ✨ Funcionalidades
+
+- ✅ **Criar contatos** - Adicione novos contatos com telefone, email e endereço
+- ✅ **Editar contatos** - Modifique as informações dos seus contatos
+- ✅ **Excluir contatos** - Remova contatos que não precisa mais
+- ✅ **Exportar para TXT** - Salve sua agenda em arquivo de texto
+- ✅ **Exportar para JSON** - Exporte os dados em formato JSON
+- ✅ **Importar de JSON** - Importe contatos de um arquivo JSON
+
+## 🚀 Como Usar
+
+### Pré-requisitos
+
+- Python 3.6 ou superior
+
+### Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/igordesouzabranco/ManipuladorAgenda.git
+cd ManipuladorAgenda
+```
+
+2. Execute o projeto:
+```bash
+python main.py
+```
+
+## 📁 Estrutura do Projeto
+
 ```
 ManipuladorAgenda/
-├── src/
-│   ├── components/
-│   ├── views/
-│   ├── App.js
-│   ├── index.js
-├── public/
-├── package.json
-├── README.md
+├── main.py              # Arquivo principal do projeto
+├── agenda.py            # Módulo da agenda
+├── contato.py           # Módulo de contatos
+└── README.md            # Este arquivo
 ```
 
-## Technologies
-- React
-- Node.js
-- Express
-- MongoDB
+## 💻 Tecnologias
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Python**
 
-## Author
-Igor Desouza Branco
+## 📝 Licença
 
-## Star
-If you find this project helpful, please give it a star!
+Este projeto está disponível sob a licença MIT.
+
+## 👤 Autor
+
+**Igor de Souza Branco**
+
+---
+
+⭐ Se este projeto foi útil para você, considere dar uma estrela!
